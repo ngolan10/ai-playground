@@ -166,13 +166,27 @@ main {
   font-size: .86rem;
 }
 
-.upload-button {
-  margin-top: 18px;
-  padding: 9px 15px;
-  border: 1px solid var(--line);
-  border-radius: 9px;
-  background: #fff;
-  font-size: .84rem;
+.csv-icon {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 16px;
+  place-items: center;
+  border-radius: 10px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+}
+
+.upload-note {
+  margin-top: 16px;
+  padding: 5px 9px;
+  border-radius: 6px;
+  color: var(--muted);
+  background: #edf2f0;
+  font-size: .72rem;
   font-weight: 700;
 }
 

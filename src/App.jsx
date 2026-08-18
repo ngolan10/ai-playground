@@ -32,10 +32,10 @@ function App() {
             </div>
 
             <label className="upload-area" htmlFor="csv-upload">
-              <span className="round-icon" aria-hidden="true">↑</span>
-              <span className="upload-title">Drop your CSV file here</span>
-              <span className="upload-help">or click to browse your computer</span>
-              <span className="upload-button">Choose file</span>
+              <span className="csv-icon" aria-hidden="true">CSV</span>
+              <span className="upload-title">Drag &amp; drop your CSV here</span>
+              <span className="upload-help">or click to browse</span>
+              <span className="upload-note">CSV files only</span>
               <input id="csv-upload" type="file" accept=".csv,text/csv" />
             </label>
           </section>
